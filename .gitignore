@@ -1,0 +1,12 @@
+# Raw Call Report downloads (too large for GitHub)
+data/raw/
+*.zip
+
+# Large generated data files
+data/clean/*.csv
+*.yxdb
+*.sas7bdat
+
+# System files
+.DS_Store
+Thumbs.db
