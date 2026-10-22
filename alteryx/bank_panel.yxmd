@@ -1260,9 +1260,6 @@ total_liabilities ...</DefaultAnnotationText>
           <DefaultAnnotationText>FFIEC CDR Call Schedule RC 12312020.txt</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
