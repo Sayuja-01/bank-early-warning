@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="126" y="90" />
+        <Position x="78" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>FFIEC CDR Call Bulk POR 12312022.txt</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
@@ -49,7 +46,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="150" y="258" />
+        <Position x="102" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -71,9 +68,6 @@
           <DefaultAnnotationText>FFIEC CDR Call Schedule RC 12312022.txt</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
@@ -164,7 +158,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="270" y="282" />
+        <Position x="222" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -196,7 +190,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="426" y="150" />
+        <Position x="378" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -227,7 +221,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="270" />
+        <Position x="402" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -255,7 +249,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="306" y="18" />
+        <Position x="258" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -281,7 +275,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="546" y="150" />
+        <Position x="498" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -304,7 +298,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="426" />
+        <Position x="54" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -326,9 +320,6 @@ total_liabilities ...</DefaultAnnotationText>
           <DefaultAnnotationText>FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
@@ -580,7 +571,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="426" y="438" />
+        <Position x="378" y="474" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -609,7 +600,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="738" y="162" />
+        <Position x="690" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -648,7 +639,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="774" y="522" />
+        <Position x="726" y="558" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -681,7 +672,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="894" y="534" />
+        <Position x="846" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -694,7 +685,7 @@ total_liabilities ...</DefaultAnnotationText>
             <FormulaField expression="IIF([deposits_domestic] &gt; 0, [uninsured_deposits] / [deposits_domestic], Null())" field="uninsured_share" size="8" type="Double" enabled="true" />
             <FormulaField expression="IIF([total_equity] &gt; 0, [htm_hidden_loss] / [total_equity], Null())" field="hidden_loss_to_equity" size="8" type="Double" enabled="true" />
             <FormulaField expression="IIF([total_assets] &gt; 0, ([htm_cost] + [afs_value]) / [total_assets], Null())" field="securities_to_assets" size="8" type="Double" enabled="true" />
-            <FormulaField expression="IIF([total_assets] &gt; 0, [total_equity] / [total_assets], Null())" field="equity_to_assets" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="IIF([total_assets] &gt; 0, [total_equity] / [total_assets], Null())" field="equity_to_assets" size="8" type="Double" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -707,7 +698,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1074" y="534" />
+        <Position x="1446" y="738" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -734,6 +725,10 @@ total_liabilities ...</DefaultAnnotationText>
             <SelectField field="hidden_loss_to_equity" selected="True" />
             <SelectField field="securities_to_assets" selected="True" />
             <SelectField field="equity_to_assets" selected="True" />
+            <SelectField field="deposits_2yr_ago" selected="True" />
+            <SelectField field="deposit_growth_2y" selected="True" />
+            <SelectField field="failed_2023" selected="True" />
+            <SelectField field="report_date" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -747,7 +742,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1290" y="546" />
+        <Position x="1242" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -770,15 +765,12 @@ total_liabilities ...</DefaultAnnotationText>
           <DefaultAnnotationText>panel_20221231.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="246" y="426" />
+        <Position x="198" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -810,7 +802,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="342" y="630" />
+        <Position x="294" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -832,9 +824,6 @@ total_liabilities ...</DefaultAnnotationText>
           <DefaultAnnotationText>FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
@@ -1086,7 +1075,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="486" y="630" />
+        <Position x="438" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1118,7 +1107,7 @@ total_liabilities ...</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="666" y="642" />
+        <Position x="618" y="678" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1135,6 +1124,282 @@ total_liabilities ...</DefaultAnnotationText>
             <SelectField field="RCON1771" selected="False" type="Double" size="8" />
             <SelectField field="RCON1772" selected="False" type="Double" size="8" />
             <SelectField field="RCON1773" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="966" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_IDRSSD" selected="True" rename="Right_IDRSSD" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1158" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1350" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([deposits_2yr_ago] &gt; 0, [deposits_domestic] / [deposits_2yr_ago] - 1, Null())" field="deposit_growth_2y" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF([IDRSSD] IN (802866, 2942690, 4114567), 1, 0)" field="failed_2023" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="&quot;2022-12-31&quot;" field="report_date" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>deposit_growth_2y = IIF([deposits_2yr_ago] &gt; 0, [deposits_domestic] / [deposits_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1590" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>failed_2023</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-10-22 13:27:35</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2026-10-22 13:27:35</StartDate>
+              <EndDate>2026-10-22 13:27:35</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[failed_2023] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Schedule RC 12312020.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD0071" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD0081" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2143" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2145" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2150" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2160" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2170" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2930" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD2948" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3000" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3123" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3190" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3210" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3230" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3545" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3548" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3632" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD3839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD5369" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFD6724" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDA130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDB528" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDB529" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDB530" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDB989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDB995" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDG105" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDJA22" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFDJJ34" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFN2200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFN6631" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCFN6636" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON0071" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON0081" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2143" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2145" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2150" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2160" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2170" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2930" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON2948" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3000" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3123" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3190" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3210" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3230" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3545" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3548" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3632" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON3839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON5369" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON6631" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON6636" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON6724" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCON8678" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONA130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB528" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB529" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB530" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB987" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB993" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONB995" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONG105" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONJA22" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="RCONJJ34" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+            <Field name="Field_81" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312020\FFIEC CDR Call Schedule RC 12312020.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="1206" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>IDRSSD</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-10-20 12:43:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2026-10-20 12:43:47</StartDate>
+              <EndDate>2026-10-20 12:43:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([IDRSSD])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="714" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" type="Int64" size="8" />
+            <SelectField field="RCFD2170" selected="False" type="Double" size="8" />
+            <SelectField field="RCFD2948" selected="False" type="Double" size="8" />
+            <SelectField field="RCFD3210" selected="False" type="Double" size="8" />
+            <SelectField field="RCON2170" selected="False" type="Double" size="8" />
+            <SelectField field="RCON2200" selected="True" rename="deposits_2yr_ago" type="Double" size="8" />
+            <SelectField field="RCON2948" selected="False" type="Double" size="8" />
+            <SelectField field="RCON3210" selected="False" type="Double" size="8" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -1198,11 +1463,19 @@ total_liabilities ...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="16" Connection="Output" />
-      <Destination ToolID="17" Connection="Input" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="17" Connection="Output" />
       <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="9" Connection="True" />
@@ -1215,6 +1488,30 @@ total_liabilities ...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="13" Connection="True" />
       <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="23" Connection="Left" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
