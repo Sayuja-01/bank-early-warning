@@ -1,0 +1,1268 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Bulk POR 12312022.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="FDIC Certificate Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="OCC Charter Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="OTS Docket Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Primary ABA Routing Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Name" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Address" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution City" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution State" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Zip Code" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Filing Type" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Last Date/Time Submission Updated On" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Schedule RC 12312022.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD0071" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD0081" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2143" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2145" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2150" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2160" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2170" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2930" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD2948" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3000" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3123" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3190" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3210" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3230" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3545" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3548" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3632" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD3839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD5369" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFD6724" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDA130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDB528" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDB529" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDB530" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDB989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDB995" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDG105" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDJA22" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFDJJ34" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFN2200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFN6631" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCFN6636" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON0071" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON0081" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2143" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2145" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2150" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2160" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2170" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2930" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON2948" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3000" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3123" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3190" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3200" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3210" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3230" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3545" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3548" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3632" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON3839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON5369" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON6631" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON6636" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON6724" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCON8678" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONA130" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB528" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB529" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB530" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB987" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB993" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONB995" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONG105" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONJA22" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="RCONJJ34" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+            <Field name="Field_81" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RC 12312022.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="270" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>IDRSSD</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-10-20 12:43:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2026-10-20 12:43:47</StartDate>
+              <EndDate>2026-10-20 12:43:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([IDRSSD])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="426" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_IDRSSD" selected="True" rename="Right_IDRSSD" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" type="Int64" size="8" />
+            <SelectField field="RCFD2170" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD2948" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD3210" selected="True" type="Double" size="8" />
+            <SelectField field="RCON2170" selected="True" type="Double" size="8" />
+            <SelectField field="RCON2200" selected="True" type="Double" size="8" />
+            <SelectField field="RCON2948" selected="True" type="Double" size="8" />
+            <SelectField field="RCON3210" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" type="Int64" size="8" />
+            <SelectField field="FDIC Certificate Number" selected="True" type="Int64" size="8" />
+            <SelectField field="Financial Institution Name" selected="True" />
+            <SelectField field="Financial Institution City" selected="True" />
+            <SelectField field="Financial Institution State" selected="True" />
+            <SelectField field="Financial Institution Filing Type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF(IsNull([RCFD2170]), [RCON2170],[RCFD2170])" field="total_assets" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF(IsNull([RCFD2948]), [RCON2948],[RCFD2948])" field="total_liabilities" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF(IsNull([RCFD3210]), [RCON3210],[RCFD3210])" field="total_equity" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[RCON2200]" field="deposits_domestic" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[total_assets]-[total_liabilities]-[total_equity]" field="balance_check" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>total_assets = IIF(IsNull([RCFD2170]), [RCON2170],[RCFD2170])
+total_liabilities ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD0211" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD0213" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD0416" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1286" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1287" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1737" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1738" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1739" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1741" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1742" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1743" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1744" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1746" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1754" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1771" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1772" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD1778" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8496" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8497" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8498" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8499" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8782" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFD8783" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA248" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA549" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA550" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA551" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA552" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA553" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA554" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA555" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA556" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA557" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA558" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA559" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA560" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA561" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDA562" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB840" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB841" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB842" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB843" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB844" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB845" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB846" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB847" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB848" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB849" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB850" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB851" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB852" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB853" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB854" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB855" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB856" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB857" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB858" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB859" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB860" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDB861" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDC026" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDC027" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDC988" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDC989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG301" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG302" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG303" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG304" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG305" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG306" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG307" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG308" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG309" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG310" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG311" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG312" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG313" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG314" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG315" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG316" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG317" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG318" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG319" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG320" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG321" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG322" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG323" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG348" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG349" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG350" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG351" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG352" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG353" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG354" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG355" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG356" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG357" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG358" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG359" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG360" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG361" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG362" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG363" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG364" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG365" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG366" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG367" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG368" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG369" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG370" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG371" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG372" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG373" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG374" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG375" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT50" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT51" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT52" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT53" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT58" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT59" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT60" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDHT61" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK142" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK143" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK144" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK145" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK146" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK147" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK148" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK149" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK150" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK151" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK152" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK153" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK154" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK155" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK156" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK157" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDMG95" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON0211" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON0213" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON0416" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1286" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1287" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1737" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1738" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1739" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1741" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1742" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1743" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1744" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1746" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1754" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1771" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1772" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1773" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON1778" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8496" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8497" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8498" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8499" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8782" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON8783" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA248" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA549" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA550" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA551" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA552" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA553" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA554" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA555" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA556" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA557" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA558" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA559" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA560" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA561" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA562" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB838" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB839" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB840" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB841" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB842" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB843" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB844" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB845" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB846" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB847" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB848" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB849" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB850" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB851" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB852" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB853" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB854" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB855" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB856" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB857" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB858" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB859" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB860" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONB861" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONC026" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONC027" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONC988" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONC989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG300" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG301" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG302" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG303" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG304" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG305" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG306" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG307" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG308" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG309" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG310" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG311" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG312" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG313" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG314" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG315" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG316" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG317" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG318" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG319" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG320" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG321" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG322" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG323" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG348" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG349" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG350" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG351" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG352" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+            <Field name="Field_242" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCB 12312022(1 of 2).txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="426" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" type="Int64" size="8" />
+            <SelectField field="RCFD1754" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD1771" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD1772" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD1773" selected="True" type="Double" size="8" />
+            <SelectField field="RCON1754" selected="True" type="Double" size="8" />
+            <SelectField field="RCON1771" selected="True" type="Double" size="8" />
+            <SelectField field="RCON1772" selected="True" type="Double" size="8" />
+            <SelectField field="RCON1773" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="738" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_IDRSSD" selected="True" rename="Left_Right_IDRSSD" input="Left_" />
+                <SelectField field="Right_IDRSSD" selected="True" rename="Right_IDRSSD" input="Right_" />
+                <SelectField field="Right_RCFD2170" selected="True" rename="Right_RCFD2170" input="Right_" />
+                <SelectField field="Right_RCFD2948" selected="True" rename="Right_RCFD2948" input="Right_" />
+                <SelectField field="Right_RCFD3210" selected="True" rename="Right_RCFD3210" input="Right_" />
+                <SelectField field="Right_RCON2170" selected="True" rename="Right_RCON2170" input="Right_" />
+                <SelectField field="Right_RCON2200" selected="True" rename="Right_RCON2200" input="Right_" />
+                <SelectField field="Right_RCON2948" selected="True" rename="Right_RCON2948" input="Right_" />
+                <SelectField field="Right_RCON3210" selected="True" rename="Right_RCON3210" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="774" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="IDRSSD" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Left_Right_IDRSSD" selected="True" rename="Left_Left_Right_IDRSSD" input="Left_" />
+                <SelectField field="Left_Right_IDRSSD" selected="True" rename="Left_Right_IDRSSD" input="Left_" />
+                <SelectField field="Right_IDRSSD" selected="True" rename="Right_IDRSSD" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF(IsNull([RCFD1754]), IIF(IsNull([RCON1754]), 0, [RCON1754]), [RCFD1754])" field="htm_cost" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF(IsNull([RCFD1771]), IIF(IsNull([RCON1771]), 0, [RCON1771]), [RCFD1771])" field="htm_value" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF(IsNull([RCFD1773]), IIF(IsNull([RCON1773]), 0, [RCON1773]), [RCFD1773])" field="afs_value" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[RCON5597]" field="uninsured_deposits" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[htm_cost] - [htm_value]" field="htm_hidden_loss" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF([deposits_domestic] &gt; 0, [uninsured_deposits] / [deposits_domestic], Null())" field="uninsured_share" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF([total_equity] &gt; 0, [htm_hidden_loss] / [total_equity], Null())" field="hidden_loss_to_equity" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF([total_assets] &gt; 0, ([htm_cost] + [afs_value]) / [total_assets], Null())" field="securities_to_assets" size="8" type="Double" enabled="true" />
+            <FormulaField expression="IIF([total_assets] &gt; 0, [total_equity] / [total_assets], Null())" field="equity_to_assets" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>htm_cost = IIF(IsNull([RCFD1754]), IIF(IsNull([RCON1754]), 0, [RCON1754]), [RCFD...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" />
+            <SelectField field="FDIC Certificate Number" selected="True" />
+            <SelectField field="Financial Institution Name" selected="True" />
+            <SelectField field="Financial Institution City" selected="True" />
+            <SelectField field="Financial Institution State" selected="True" />
+            <SelectField field="Financial Institution Filing Type" selected="True" />
+            <SelectField field="total_assets" selected="True" />
+            <SelectField field="total_liabilities" selected="True" />
+            <SelectField field="total_equity" selected="True" />
+            <SelectField field="deposits_domestic" selected="True" />
+            <SelectField field="balance_check" selected="True" />
+            <SelectField field="htm_cost" selected="True" />
+            <SelectField field="htm_value" selected="True" />
+            <SelectField field="afs_value" selected="True" />
+            <SelectField field="uninsured_deposits" selected="True" />
+            <SelectField field="htm_hidden_loss" selected="True" />
+            <SelectField field="uninsured_share" selected="True" />
+            <SelectField field="hidden_loss_to_equity" selected="True" />
+            <SelectField field="securities_to_assets" selected="True" />
+            <SelectField field="equity_to_assets" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1290" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\clean\panel_20221231.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>panel_20221231.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="246" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>IDRSSD</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-10-20 12:43:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2026-10-20 12:43:47</StartDate>
+              <EndDate>2026-10-20 12:43:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([IDRSSD])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="342" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDF236" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDF237" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG465" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG466" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG467" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG468" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG469" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG470" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG471" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDG472" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK652" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK653" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK654" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK655" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK657" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK658" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK659" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK660" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK661" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK663" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK664" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK665" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK666" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK669" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK673" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK674" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK676" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDK677" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDL189" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDL194" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDL195" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDL196" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM963" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM964" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM965" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM966" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM967" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM968" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM969" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM970" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM971" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM972" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM973" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM974" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM975" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM976" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM977" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM978" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM979" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM980" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM981" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM982" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM983" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM984" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM985" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM986" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM987" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM988" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM989" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM990" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM991" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM992" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM993" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM994" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM995" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM996" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM997" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM998" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDM999" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDMW53" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN001" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN002" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN003" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN004" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN005" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN006" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN007" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN008" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN009" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN010" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN011" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN012" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN013" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN014" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN015" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN016" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN017" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN018" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN019" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN020" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN021" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN022" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN023" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN024" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN025" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN026" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN027" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN028" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN029" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN030" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN040" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN041" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN042" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN043" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN044" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN045" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN046" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN047" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN048" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN049" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN050" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN051" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN052" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN053" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN054" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN055" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN056" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN057" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN058" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN059" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN060" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN061" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN062" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN063" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN064" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN065" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN066" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN067" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN068" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN069" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN070" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN071" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN072" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN073" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN074" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN075" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN076" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN077" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN078" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN079" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN080" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN081" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN082" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN083" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN084" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN085" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN086" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN087" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN088" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN089" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN090" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN091" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN092" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN093" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN094" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN095" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN096" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN097" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN098" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN099" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN100" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN101" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN102" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN103" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN104" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN105" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN106" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN107" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN108" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN109" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN110" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN111" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN112" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN113" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN114" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN115" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN116" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN117" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN118" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN119" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN120" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN121" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN122" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN123" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN124" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN125" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN126" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN127" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN128" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN177" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN178" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN179" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN180" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN181" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN182" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFDN183" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFNF234" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCFNGW43" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCON5597" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONA545" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF045" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF046" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF047" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF048" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF049" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF050" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF051" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF052" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF236" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONF237" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG465" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG466" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG467" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG468" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG469" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG470" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG471" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG472" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONG803" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK652" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK653" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK654" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK655" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK656" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK657" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK658" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK659" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK660" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK661" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK663" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK664" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK665" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK666" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK669" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK673" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK674" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK676" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK677" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="RCONK678" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+            <Field name="Field_242" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="486" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>IDRSSD</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-10-20 12:43:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2026-10-20 12:43:47</StartDate>
+              <EndDate>2026-10-20 12:43:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([IDRSSD])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IDRSSD" selected="True" type="Int64" size="8" />
+            <SelectField field="RCON5597" selected="True" type="Double" size="8" />
+            <SelectField field="RCFD1754" selected="False" type="Double" size="8" />
+            <SelectField field="RCFD1771" selected="False" type="Double" size="8" />
+            <SelectField field="RCFD1772" selected="False" type="Double" size="8" />
+            <SelectField field="RCFD1773" selected="False" type="Double" size="8" />
+            <SelectField field="RCON1754" selected="False" type="Double" size="8" />
+            <SelectField field="RCON1771" selected="False" type="Double" size="8" />
+            <SelectField field="RCON1772" selected="False" type="Double" size="8" />
+            <SelectField field="RCON1773" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>bank_panel</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e9836320-79f2-4aa1-bb3d-310bd21e1de9" />
+      <Telemetry>
+        <PreviousWorkflowId value="def5ca16-6dd7-4487-98a9-d951db681514" />
+        <OriginWorkflowId value="def5ca16-6dd7-4487-98a9-d951db681514" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

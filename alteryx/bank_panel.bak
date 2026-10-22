@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FFIEC CDR Call Bulk POR 12312022.txt</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="IDRSSD" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="FDIC Certificate Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="OCC Charter Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="OTS Docket Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Primary ABA Routing Number" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Name" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Address" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution City" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution State" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Zip Code" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Financial Institution Filing Type" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+            <Field name="Last Date/Time Submission Updated On" size="254" source="File: C:\Users\sk\projects\bank-early-warning\data\raw\FFIEC CDR Call Bulk All Schedules 12312022\FFIEC CDR Call Bulk POR 12312022.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>bank_panel</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e9836320-79f2-4aa1-bb3d-310bd21e1de9" />
+      <Telemetry>
+        <PreviousWorkflowId value="def5ca16-6dd7-4487-98a9-d951db681514" />
+        <OriginWorkflowId value="def5ca16-6dd7-4487-98a9-d951db681514" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
